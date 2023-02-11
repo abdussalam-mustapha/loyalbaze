@@ -591,6 +591,9 @@ hr {
     padding: 0 0 0 7rem !important;
     margin-left: -1.5rem;
   }
+  .form_section {
+    width: 300px;
+  }
 
   .col_1 {
     padding: 0 0 0 7rem !important;
@@ -603,6 +606,8 @@ hr {
 
   .footer_sect {
     margin-left: 7rem;
+    justify-content: left !important;
+    text-align: left !important;
   }
 }
 
