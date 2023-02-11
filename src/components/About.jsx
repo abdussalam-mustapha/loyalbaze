@@ -5,27 +5,30 @@ import img3 from "../img/Line 6.svg"
 import img4 from "../img/Star 3.png"
 import img5 from "../img/Star 3.png"
 
+import { GiDogHouse } from "react-icons/gi"
+import { MdPhoneInTalk } from "react-icons/md"
+
 const About = () => {
     return (
         <div>
             <section class="abt_section">
-                <section class="col_1">
-                    <img src={img1} alt="" class="circle" />
+                <section className="col_1">
+                    <img src={img1} alt="" className="circle" />
                     <img src={img2} alt="" id="star_1" />
-                    <p class="abt_text">Priority Access</p>
-                    <div class="line">
+                    <p className="abt_text">Priority Access</p>
+                    <div className="line">
                         <img src={img3} alt="" class="line_img" />
                     </div>
-                    <p class="abt_desc">
+                    <p className="abt_desc">
                         Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers. With
                         our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track
                         customer engagement, and gain valuable insights to improve your business.
                     </p>
                     <img src={img4} alt="" id="star_2" />
                 </section>
-                <section class="col_2">
-                    <section class="form_section">
-                        <p class="f_text">Book a consultation with us</p>
+                <section className="col_2">
+                    <section className="form_section">
+                        <p className="f_text">Book a consultation with us</p>
                         <form>
                             <input type="text" placeholder="Enter your full name" />
                             <input type="email" name="" id="" placeholder="Enter your work mail" />
@@ -47,13 +50,19 @@ const About = () => {
                 </section>
             </section>
             <hr />
-            <section class="footer_sect">
-                <div class="p_1">
-                    <p class="p_add">2nd Floor, The Garnet Building, KM14</p>
-                    <p>Lekki Epe Expressway, Lagos, Nigeria</p>
+            <section className="footer_sect">
+                <div className="p_1">
+                    <GiDogHouse className='footer_icon' />
+                    <div className="para_foot">
+                        <p className="p_add">2nd Floor, The Garnet Building, KM14</p>
+                        <p>Lekki Epe Expressway, Lagos, Nigeria</p>
+                    </div>
                 </div>
-                <p>Loyalbaze is almost here</p>
-                <p>+234 903 618 9485</p>
+                <p className='ft_text'>Loyalbaze is almost here</p>
+                <div className="mb">
+                    <MdPhoneInTalk />
+                    <p>+234 903 618 9485</p>
+                </div>
             </section>
         </div>
     )
