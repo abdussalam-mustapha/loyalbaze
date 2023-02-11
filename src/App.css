@@ -394,6 +394,32 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
+
+.p_modal {
+  font-family: 'Satoshi';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.m_modal {
+  width: 88px;
+  height: 88px;
+  left: 179px;
+  top: 102px;
+  background: #20AC5B;
+  border: 10px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px -5px 20px #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media screen and (min-width: 768px) {
   .form_section {
     width: 500px;
@@ -506,6 +532,7 @@ hr {
     top: 528px;
     left: 35%;
   }
+
   .footer_sect {
     flex-direction: column;
     justify-content: flex-start !important;
@@ -521,6 +548,10 @@ hr {
     overflow-x: hidden !important;
   }
 
+  .spiral {
+    display: none;
+  }
+
   .icon_1 {
     top: 568px;
     left: 24%;
@@ -533,12 +564,12 @@ hr {
 
   .col_1 {
     text-align: center;
-    margin:  0 0 0 3rem;
+    margin: 0 0 0 3rem;
   }
 
   .col_2 {
     width: 480px !important;
-    margin:  0 0 0 3rem;
+    margin: 0 0 0 3rem;
   }
 }
 
@@ -557,12 +588,15 @@ hr {
     width: 290px !important;
     padding: 0 0 0 7rem !important;
   }
+
   .col_1 {
     padding: 0 0 0 7rem !important;
   }
+
   hr {
     margin-left: 7rem;
   }
+
   .footer_sect {
     margin-left: 7rem;
   }
@@ -574,6 +608,14 @@ hr {
   }
 
   .icon_2 {
+    display: none;
+  }
+
+  .main_content {
+    margin-left: 2rem;
+    padding: 0 1rem !important;
+  }
+  .spiral {
     display: none;
   }
 }
