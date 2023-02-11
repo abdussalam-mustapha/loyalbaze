@@ -37,12 +37,14 @@ body {
   position: absolute;
   left: 32%;
   top: 615px;
+  display: none;
 }
 
 .icon_2 {
   position: absolute;
   left: 32%;
   top: 688px;
+  display: none;
 }
 
 /* .input_1  {
