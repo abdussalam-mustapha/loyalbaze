@@ -42,6 +42,14 @@ body {
   left: 32%;
   top: 688px;
 }
+/* .input_1  {
+  position: absolute;
+  top: 615px;
+}
+.input_2 {
+  position: absolute;
+  top: 688px;
+} */
 
 .p_1 {
   display: flex;
@@ -133,7 +141,6 @@ body {
 }
 
 input {
-  width: 20rem;
   height: 2.5rem;
   width: 443px;
   margin: 1rem;
@@ -236,7 +243,6 @@ span {
 .form_section {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -374,4 +380,123 @@ hr {
 
 .ft_text {
   font-weight: 600;
+}
+
+/* .input_cont_1 {
+  position: relative;
+}
+
+.input_cont_2 {
+  position: relative;
+} */
+
+@media screen and (max-width: 768px) {
+  .text_logo {
+    font-size: 2rem;
+  }
+
+  .logo_img {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .r_btn  {
+    padding: 5px 20px;
+  }
+
+  .text_main {
+    padding: 0 1rem !important;
+    font-size: 2.5rem !important;
+  }
+
+  .text_desc {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0 2rem;
+  }
+  .main_circle {
+    z-index: -10;
+  }
+  .main_content input {
+    width: 200px;
+    height: 2rem;
+  }
+  .btn {
+    width: 150px;
+    /* height: 1.5rem; */
+    padding: 8px 6px !important;
+    height: 30px;
+  }
+  .icon_1 {
+    top: 462px;
+    left: 35%;
+  }
+  .icon_2 {
+    top: 528px;
+    left: 35%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .abt_section {
+    flex-direction: column;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+  }
+  .col_1 {
+    width: 90%;
+    margin: auto;
+  }
+  .col-2 {
+    width: 150% !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .form_section {
+    width: 100%;
+  }
+  .form_section input {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .icon_1 {
+    top: 568px;
+    left: 24%;
+  }
+  .icon_2 {
+    top: 635px;
+    left: 24%;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .icon_1 {
+    top: 670px;
+    left: 18%;
+  }
+  .icon_2 {
+    top: 734px;
+    left: 18%;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .icon_1 {
+    display: none;
+  }
+  .icon_2 {
+    display: none;
+  }
 }

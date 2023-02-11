@@ -41,11 +41,11 @@ const Home = () => {
                     <section className="input_sect">
                         <div className="input_cont_1">
                             <BsPersonCircle className='icon_1'/>
-                            <input type="text" placeholder="Tell us your name" />
+                            <input type="text" placeholder="Tell us your name" className='input_1'/>
                         </div>
                         <div class="input_cont_2">
                             <BiEnvelope className='icon_2'/>
-                            <input type="email" name="" id="" placeholder="Enter your email address" />
+                            <input type="email" name="" id="" placeholder="Enter your email address"className='input_2' />
                         </div>
                         <img src={img6} alt="" className="spiral" />
                         <button type="submit" class="btn">Get early access</button>
