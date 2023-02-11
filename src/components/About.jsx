@@ -5,7 +5,7 @@ import img3 from "../img/Line 6.svg"
 import img4 from "../img/Star 3.png"
 import img5 from "../img/Star 3.png"
 
-import { GiDogHouse } from "react-icons/gi"
+import { MdHouse } from "react-icons/md"
 import { MdPhoneInTalk } from "react-icons/md"
 
 const About = () => {
@@ -52,7 +52,7 @@ const About = () => {
             <hr />
             <section className="footer_sect">
                 <div className="p_1">
-                    <GiDogHouse className='footer_icon' />
+                    <MdHouse className='footer_icon' />
                     <div className="para_foot">
                         <p className="p_add">2nd Floor, The Garnet Building, KM14</p>
                         <p>Lekki Epe Expressway, Lagos, Nigeria</p>
