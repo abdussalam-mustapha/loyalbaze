@@ -585,12 +585,14 @@ hr {
   }
 
   .col_2 {
-    width: 290px !important;
+    width: 300px !important;
     padding: 0 0 0 7rem !important;
+    margin-left: -1.5rem;
   }
 
   .col_1 {
     padding: 0 0 0 7rem !important;
+    margin-left: -1.5rem;
   }
 
   hr {
